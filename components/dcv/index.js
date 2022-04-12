@@ -9,7 +9,7 @@ function DCVViewerComponent() {
   const [credentials, setCredentials] = useState({});
 
   const LOG_LEVEL = dcv.LogLevel.INFO;
-  const SERVER_URL = "https://3.72.94.59:8443/";
+  const SERVER_URL = "https://nice-dcv.nuvomint.com/";
   const BASE_URL = "/static/js/dcvjs";
 
   let auth;
