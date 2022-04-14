@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@awsui/components-react": "^3.0.449",
-    "@awsui/design-tokens": "^3.0.18",
-    "@awsui/global-styles": "^1.0.12",
     "next": "12.1.0",
     "next-global-css": "1.3.0",
     "react": "17.0.2",
