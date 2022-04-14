@@ -9,7 +9,7 @@ function DCVViewerComponent() {
   const [credentials, setCredentials] = useState({});
 
   const LOG_LEVEL = dcv.LogLevel.INFO;
-  const SERVER_URL = "https://nice-dcv.nuvomint.com/";
+  const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
   const BASE_URL = "/static/js/dcvjs";
 
   let auth;
@@ -18,6 +18,7 @@ function DCVViewerComponent() {
     var { sessionId, authToken } = { ...result[0] };
 
     console.log("Authentication successful.");
+    console.log(sessionId, authToken);
 
     setSessionId(sessionId);
     setAuthToken(authToken);
@@ -25,16 +26,32 @@ function DCVViewerComponent() {
     setCredentials({});
   };
 
-  const onPromptCredentials = (_, credentialsChallenge) => {
-    let requestedCredentials = {};
+  function onPromptCredentials(auth, challenge) {
+    // Let's check if in challege we have a username and password request
+    if (
+      challengeHasField(challenge, "username") &&
+      challengeHasField(challenge, "password")
+    ) {
+      auth.sendCredentials({
+        username: process.env.NEXT_PUBLIC_USERNAME,
+        password: process.env.NEXT_PUBLIC_PASSWORD,
+      });
+    } else {
+      // Challenge is requesting something else...
+    }
+  }
 
-    credentialsChallenge.requiredCredentials.forEach(
-      (challenge) => (requestedCredentials[challenge.name] = "")
+  function challengeHasField(challenge, field) {
+    return challenge.requiredCredentials.some(
+      (credential) => credential.name === field
     );
-    setCredentials(requestedCredentials);
-  };
+  }
 
   const authenticate = () => {
+    console.log(
+      "Using NICE DCV Web Client SDK version " + dcv.version.versionStr
+    );
+    console.log("Starting authentication with ", SERVER_URL);
     dcv.setLogLevel(LOG_LEVEL);
 
     auth = dcv.authenticate(SERVER_URL, {
@@ -72,23 +89,25 @@ function DCVViewerComponent() {
   };
 
   return authenticated ? (
-    <DCVViewer
-      dcv={{
-        sessionId: sessionId,
-        authToken: authToken,
-        serverUrl: SERVER_URL,
-        baseUrl: BASE_URL,
-        onDisconnect: handleDisconnect,
-        logLevel: LOG_LEVEL,
-      }}
-      uiConfig={{
-        toolbar: {
-          visible: true,
-          fullscreenButton: true,
-          multimonitorButton: true,
-        },
-      }}
-    />
+    <div style={{ height: "100%" }}>
+      <DCVViewer
+        dcv={{
+          sessionId: sessionId,
+          authToken: authToken,
+          serverUrl: SERVER_URL,
+          baseUrl: BASE_URL,
+          onDisconnect: handleDisconnect,
+          logLevel: LOG_LEVEL,
+        }}
+        uiConfig={{
+          toolbar: {
+            visible: true,
+            fullscreenButton: true,
+            multimonitorButton: true,
+          },
+        }}
+      />
+    </div>
   ) : (
     <div
       style={{
