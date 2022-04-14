@@ -2,15 +2,30 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the development server:
+To successfully run the project on localhost, you need to add a .env.local file in the root of the app directory. This file needs to have these values in the following format (without the curly brackets):
+
+```
+NEXT_PUBLIC_SERVER_URL={nice dcv server url}
+NEXT_PUBLIC_USERNAME={nice dcv server username}
+NEXT_PUBLIC_PASSWORD={nice dcv server password}
+```
+
+Since this project integrates NICE DCV, to run it on localhost, it needs to run over SSL. A simple way to use HTTPS on localhost is using [local-ssl-proxy](https://www.npmjs.com/package/local-ssl-proxy)
+
+First, install ssl-proxy globally, and target the port 3000,
+
+```
+npm install -g local-ssl-proxy
+local-ssl-proxy --source 3001 --target 3000
+```
+
+Then, on a separate terminal, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3001](http://localhost:3001) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
