@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import dcv from "../../dcvjs-esm/dcv";
+import dcv from "../../public/dcvjs/dcv";
 
 function DCVViewerComponent() {
   const [authenticated, setAuthenticated] = useState(false);
