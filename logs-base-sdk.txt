@@ -1,0 +1,543 @@
+Using NICE DCV Web Client SDK version 1.1.0+build.295
+index.js?c53a:76 Starting authentication with https://nice-dcv.nuvomint.com/
+index.js?c53a:19 Authentication successful.
+index.js?c53a:20 console eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MjQzLCJjbGFpbXMiOnsic2lkIjoiY29uc29sZSIsInVzZXIiOiJBZG1pbmlzdHJhdG9yIn0sInRzIjp7InNlY3Nfc2luY2VfZXBvY2giOjE2NDk5MzE0MjgsIm5hbm9zX3NpbmNlX2Vwb2NoIjo1NDk1MTIwMDB9LCJpaSI6ImktMGRhNDMyMmE4YTNkOTU1YmUifQ.sVgZGfBLwduCSXeDJDdSykJYqJMwltu5YswHKWavjF8
+dcv.js?15a7:1 [client] Start DCV connection
+dcv.js?15a7:1 [client] Connection configuration property enableWebCodecs is undefined. Defaulting to false.
+dcv.js?15a7:1 [client] Connection configuration property highColorAccuracy is undefined. Defaulting to false.
+react_devtools_backend.js:3973 [connection] Connection callback disconnect is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback displayLayout is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback filePrinted is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback fileDownload is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback dataChannel is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback licenseNotification is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback idleWarningNotification is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback qualityIndicatorState is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback filestorageEnabled is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback featuresUpdate is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback clipboardEvent is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback deviceChangeEvent is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback screenshot is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+react_devtools_backend.js:3973 [connection] Connection callback collaboratorList is undefined
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Bd @ dcv.js?15a7:27
+jd @ dcv.js?15a7:27
+eval @ dcv.js?15a7:34
+connect @ dcv.js?15a7:34
+onSuccess @ index.js?c53a:27
+vf @ dcv.js?15a7:34
+Of @ dcv.js?15a7:34
+kf @ dcv.js?15a7:34
+websocket.onmessage @ dcv.js?15a7:34
+dcv.js?15a7:1 [connection] Setting up channel factory
+dcv.js?15a7:1 [connection] Setting up resources (console)
+dcv.js?15a7:1 [connection] Creating mainchannel
+dcv.js?15a7:1 [authentication] Auth WebSocket connection closed. Code 1000
+dcv.js?15a7:1 [mainchannel] Main Channel opened
+dcv.js?15a7:1 [mainchannel] Main channel established (connection id 130)
+dcv.js?15a7:1 [mainchannel] Server dcvserver.exe on EC2AMAZ-6L1CDP6 (2022.0.11954 Windows (10.0.17763 - 3), x64)
+dcv.js?15a7:1 [mainchannel] Setup completed for main channel. ConnectionId: 130
+dcv.js?15a7:1 [connection:130] Adding disconnect callback to window unload
+dcv.js?15a7:1 [client] Connection has been established
+index.js?c53a:38 Connection established!
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of undefined (reading 'info')
+    at Object.e.deprecated._this.configuration.observers.<computed> [as collaboratorList] (dcv.js?15a7:27:1143765)
+    at jd.Hd (dcv.js?15a7:27:1147115)
+    at _o.zo (dcv.js?15a7:7:162293)
+    at _o.onMessageReceived (dcv.js?15a7:7:158672)
+    at _o.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+e.deprecated._this.configuration.observers.<computed> @ dcv.js?15a7:27
+Hd @ dcv.js?15a7:27
+zo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [connection:130] Received notification for channel 'smartcard'
+dcv.js?15a7:1 [channelfactory] Channel of type 'smartcard' is not enabled
+dcv.js?15a7:1 [connection:130] Received notification for channel 'usb'
+dcv.js?15a7:1 [channelfactory] Channel of type 'usb' is not enabled
+dcv.js?15a7:1 [connection:130] Received notification for channel 'input'
+dcv.js?15a7:1 [datachannel:130] Opening data channel input
+dcv.js?15a7:1 [channelfactory] Created channel of type 'input'
+dcv.js?15a7:1 [connection:130] Received notification for channel 'display'
+dcv.js?15a7:1 [datachannel:130] Opening data channel display
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["screenshot"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+react_devtools_backend.js:3973 [displaychannel:130] The following observer is not defined: displayAvailability
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+_class @ dcv.js?15a7:27
+eval @ dcv.js?15a7:27
+Fd @ dcv.js?15a7:27
+Ud @ dcv.js?15a7:27
+Qo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [displaymanager:130] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [channelfactory] Created channel of type 'display'
+dcv.js?15a7:1 [connection:130] Received notification for channel 'clipboard'
+dcv.js?15a7:1 [datachannel:130] Opening data channel clipboard
+dcv.js?15a7:1 [clipboard:130] Clibpoard copy autosync available
+dcv.js?15a7:1 [clipboard:130] Notifying clipboard event (established)
+react_devtools_backend.js:3973 [clipboardchannel:130] Could not create Clipboard: Cannot read properties of undefined (reading 'log')
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+_class @ dcv.js?15a7:27
+eval @ dcv.js?15a7:27
+Fd @ dcv.js?15a7:27
+Ud @ dcv.js?15a7:27
+Qo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+react_devtools_backend.js:3973 [channelfactory] Unable to create channel of type 'clipboard' (Cannot read properties of undefined (reading 'log'))
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Fd @ dcv.js?15a7:27
+Ud @ dcv.js?15a7:27
+Qo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [connection:130] Received notification for channel 'redirection'
+dcv.js?15a7:1 [channelfactory] Channel of type 'redirection' is not enabled
+dcv.js?15a7:1 [connection:130] Notifying license notification status
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of undefined (reading 'info')
+    at Object.e.deprecated._this.configuration.observers.<computed> [as licenseNotification] (dcv.js?15a7:27:1143765)
+    at jd.Qd (dcv.js?15a7:27:1146703)
+    at _o.Ho (dcv.js?15a7:7:162041)
+    at _o.onMessageReceived (dcv.js?15a7:7:158575)
+    at _o.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+e.deprecated._this.configuration.observers.<computed> @ dcv.js?15a7:27
+Qd @ dcv.js?15a7:27
+Ho @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [clipboard:130] Async API clipboard-write from undefined to granted
+dcv.js?15a7:1 [clipboard:130] Adding focus listener for clipboard-write
+dcv.js?15a7:1 [clipboard:130] Async API clipboard-read from undefined to granted
+dcv.js?15a7:1 [clipboard:130] Adding focus listener for clipboard-read
+dcv.js?15a7:1 [connection:130] Notifying quality indicators state
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of undefined (reading 'info')
+    at Object.e.deprecated._this.configuration.observers.<computed> [as qualityIndicatorState] (dcv.js?15a7:27:1143765)
+    at jd.qd (dcv.js?15a7:27:1147915)
+    at _o.Jo (dcv.js?15a7:7:164554)
+    at _o.onMessageReceived (dcv.js?15a7:7:158520)
+    at _o.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+e.deprecated._this.configuration.observers.<computed> @ dcv.js?15a7:27
+qd @ dcv.js?15a7:27
+Jo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [connection:130] Notifying quality indicators state
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of undefined (reading 'info')
+    at Object.e.deprecated._this.configuration.observers.<computed> [as qualityIndicatorState] (dcv.js?15a7:27:1143765)
+    at jd.qd (dcv.js?15a7:27:1147915)
+    at _o.Jo (dcv.js?15a7:7:164554)
+    at _o.onMessageReceived (dcv.js?15a7:7:158520)
+    at _o.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+e.deprecated._this.configuration.observers.<computed> @ dcv.js?15a7:27
+qd @ dcv.js?15a7:27
+Jo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [connection:130] Received notification for channel 'audio'
+dcv.js?15a7:1 [datachannel:130] Opening data channel audio
+dcv.js?15a7:7 The AudioContext was not allowed to start. It must be resumed (or created) after a user gesture on the page. https://goo.gl/7K7WLu
+yo @ dcv.js?15a7:7
+_class @ dcv.js?15a7:27
+eval @ dcv.js?15a7:27
+Fd @ dcv.js?15a7:27
+Ud @ dcv.js?15a7:27
+Qo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [media] AudioContext created with state suspended
+dcv.js?15a7:1 [channelfactory] Created channel of type 'audio'
+dcv.js?15a7:1 [connection:130] Received notification for channel 'filestorage'
+dcv.js?15a7:1 [datachannel:130] Opening data channel filestorage
+dcv.js?15a7:1 [filestoragechannel:130] Notifying filestorage status enabled
+react_devtools_backend.js:3973 [channelfactory] Unable to create channel of type 'filestorage' (Cannot read properties of undefined (reading 'info'))
+overrideMethod @ react_devtools_backend.js:3973
+n6.<computed> @ dcv.js?15a7:1
+eval @ dcv.js?15a7:27
+Fd @ dcv.js?15a7:27
+Ud @ dcv.js?15a7:27
+Qo @ dcv.js?15a7:7
+onMessageReceived @ dcv.js?15a7:7
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [inputchannel:130] Data channel input opened
+dcv.js?15a7:1 [inputchannel:130] Setup completed for channel input. ConnectionId: 130. ChannelConnectionId: 131
+dcv.js?15a7:1 [inputchannel:130] Started input protocol on channel 130
+dcv.js?15a7:1 [inputchannel:130] Server handles status updates
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [input:130] Pointer Events are supported
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [inputchannel:130] Supported pointer modes: [0,1]
+dcv.js?15a7:1 [inputchannel:130] Suggested cursor cache size: undefined
+dcv.js?15a7:1 [inputchannel:130] Supported cursor image formats: [0,1]
+dcv.js?15a7:1 [inputchannel:130] enabled
+dcv.js?15a7:1 [inputchannel:130] Registered cursor resource url
+dcv.js?15a7:1 [inputchannel:130] Input service 0 status changed to 2
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["keyboard"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [inputchannel:130] Input service 1 status changed to 2
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [inputchannel:130] Input service 2 status changed to 2
+dcv.js?15a7:1 [inputchannel:130] Input service 3 status changed to 2
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [inputchannel:130] Input service 4 status changed to 2
+dcv.js?15a7:1 [inputchannel:130] Input service 5 status changed to 2
+dcv.js?15a7:1 [inputchannel:130] Input service 10 status changed to 2
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaychannel:130] Data channel display opened
+dcv.js?15a7:1 [displaychannel:130] Setup completed for channel display. ConnectionId: 130. ChannelConnectionId: 132
+dcv.js?15a7:1 [displaymanager:130] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaychannel:130] Started display protocol on channel 130
+dcv.js?15a7:1 [media] Found WebGL device: 'webgl2', renderer: 'ANGLE (Intel, Intel(R) UHD Graphics 630 Direct3D11 vs_5_0 ps_5_0, D3D11)'
+dcv.js?15a7:1 [decoderfactory] Disabling WebVideoDecoder by user settings
+dcv.js?15a7:1 [decoderfactory] Enabled codecs are: h264,jpeg,lz4
+dcv.js?15a7:1 [decoderfactory] Disabling high color accuracy because no frame decoder is supporting it
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'h264' registered in the factory
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'mpeg1video' is not enabled
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'jpeg' registered in the factory
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'lz4' registered in the factory
+dcv.js?15a7:1 [displaychannel:130] Start display negotiation (1999883506749)
+dcv.js?15a7:1 [displaychannel:130] Resetting display channel
+dcv.js?15a7:1 [displaychannel:130] Start
+dcv.js?15a7:1 [displaychannel:130] Sending client codecs: [{"name":"h264","capabilities":["codec_quality_setting","codec_profile_baseline","subsamp_420","colorspace_yuv_rec709","colorspace_yuv_rec601","colorrange_full"]},{"name":"jpeg","capabilities":["codec_quality_setting","codec_tiles","subsamp_420"]},{"name":"lz4","capabilities":["codec_lossless","codec_tiles","colorspace_rgb"]}]
+dcv.js?15a7:1 [displaychannel:130] Display Layout Capabilities: {"supportClientResize":true,"supportClientDpi":true,"maxHeads":4,"maxHeadResolution":{"width":4096,"height":2160},"minHeadResolution":{"width":640,"height":480},"webClientMaxHeadResolution":{"width":1920,"height":1080}}
+dcv.js?15a7:1 [displaymanager:130] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaychannel:130] Server Codecs: [{"name":"h264","capabilities":["codec_quality_setting","codec_profile_baseline","subsamp_420","colorspace_yuv_rec601"],"id":1},{"name":"jpeg","capabilities":["codec_quality_setting","codec_tiles","subsamp_420"],"id":2},{"name":"lz4","capabilities":["codec_tiles","codec_lossless","colorspace_rgb"],"id":3}]
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["high-color-accuracy"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaychannel:130] Sending client ready
+dcv.js?15a7:1 [displaymanager:130] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaymanager:130] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [clipboardchannel:130] Data channel clipboard opened
+dcv.js?15a7:1 [displaychannel:130] active
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["screenshot"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [displaychannel:130] Start stream 1 with codec 1
+dcv.js?15a7:1 [displaychannel:130] Creating decoder for codec h264 (id: 1, layer: 0)
+dcv.js?15a7:1 [h264:130] Created YUV worker (https://localhost:3001/dcvjs/dcv/broadwayh264decoder-worker.js)
+dcv.js?15a7:1 [displaychannel:130] Created decoder for codec h264 (id: 1, layer: 0)
+dcv.js?15a7:1 [displaychannel:130] Start stream 2 with codec 2
+dcv.js?15a7:1 [displaychannel:130] Creating decoder for codec jpeg (id: 2, layer: 1)
+dcv.js?15a7:1 [displaychannel:130] Created decoder for codec jpeg (id: 2, layer: 1)
+dcv.js?15a7:1 [displaychannel:130] Start stream 3 with codec 3
+dcv.js?15a7:1 [displaychannel:130] Creating decoder for codec lz4 (id: 3, layer: 2)
+dcv.js?15a7:1 [lz4decoder:130] Using model rgb
+dcv.js?15a7:1 [lz4decoder:130] Created Lz4 worker (https://localhost:3001/dcvjs/dcv/lz4decoder-worker.js)
+dcv.js?15a7:1 [displaychannel:130] Created decoder for codec lz4 (id: 3, layer: 2)
+dcv.js?15a7:1 [displaychannel:130] Display Layout: [{"name":"\\\\.\\DISPLAY1","rect":{"width":1536,"height":676},"primary":true,"dpi":96}]
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'wheel' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [display:130] Notifying new server display layout (1536, 676)
+dcv.js?15a7:1 [display:130] Display \\.\DISPLAY1 has been created
+dcv.js?15a7:1 [WebGL2Renderer:130] Initialized Webgl2Renderer
+dcv.js?15a7:1 [WebGL2Renderer:130] Resized viewport
+dcv.js?15a7:1 [displaymanager:130] Notifying new server primary display layout (1536, 676)
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of undefined (reading 'info')
+    at Object.e.deprecated._this.configuration.observers.<computed> [as displayLayout] (dcv.js?15a7:27:1143765)
+    at uc.hc (dcv.js?15a7:27:222935)
+    at uc.setLayout (dcv.js?15a7:27:227464)
+    at _class.rl (dcv.js?15a7:27:261562)
+    at _class.onMessageReceived (dcv.js?15a7:27:1119730)
+    at _class.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+e.deprecated._this.configuration.observers.<computed> @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [clipboardchannel:130] Setup completed for channel clipboard. ConnectionId: 130. ChannelConnectionId: 133
+dcv.js?15a7:1 [clipboardchannel:130] Started clipboard protocol on channel 130
+dcv.js?15a7:1 [clipboardchannel:130] Resetting channel
+dcv.js?15a7:1 [clipboardchannel:130] Starting handshake
+dcv.js?15a7:27 Uncaught TypeError: Cannot read properties of null (reading 'enableCopy')
+    at _class.Yl (dcv.js?15a7:27:303431)
+    at _class.onMessageReceived (dcv.js?15a7:27:1128810)
+    at _class.Ro (dcv.js?15a7:7:92873)
+    at ur.i (dcv.js?15a7:1:24812)
+    at ur.hr (dcv.js?15a7:1:25764)
+Yl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [audiochannel:130] Data channel audio opened
+dcv.js?15a7:1 [WebGL2Renderer:130] Initialized rendering layer 0
+dcv.js?15a7:1 [display:130] Started renderer for layer type: 0
+dcv.js?15a7:1 [displaychannel:130] Stream 1 associated to display \\.\DISPLAY1(id: 0)
+dcv.js?15a7:1 [WebGL2Renderer:130] Initialized rendering layer 2
+dcv.js?15a7:1 [display:130] Started renderer for layer type: 2
+dcv.js?15a7:1 [displaychannel:130] Stream 3 associated to display \\.\DISPLAY1(id: 0)
+dcv.js?15a7:1 [audiochannel:130] Setup completed for channel audio. ConnectionId: 130. ChannelConnectionId: 134
+dcv.js?15a7:1 [audiochannel:130] Started audio protocol on channel 130
+dcv.js?15a7:1 [audiochannel:130] Starting handshake
+dcv.js?15a7:1 [audiochannel:130] Sending to server supported configuration with codec Opus and profiles generic,voice
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["webcam"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [audiochannel:130] Configuration: 2 channels, 48000Hz, stream frame length: 40 ms, inject frame length: 40 ms
+dcv.js?15a7:1 [audiochannel:130] Opus generic decoder created.
+dcv.js?15a7:1 [audiochannel:130] Selected codec opus and profile generic with bitrates: 32,64,128,160,192 kbps (Default: 64 kbps)
+dcv.js?15a7:1 [audiochannel:130] Selected audio bitrate 64000
+dcv.js?15a7:1 [audioEncoder:130] Opus Encoder with profile "generic" created: sample rate 48000, 2 channels, bitrate 64000
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["audio-in"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["audio-out"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [filestoragechannel:130] Data channel filestorage opened
+dcv.js?15a7:1 [audiochannel:130] Stream Configuration: audio type: 1, stream frame length: 40 ms
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["audio-in"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [featuremanager:130] Notifying features update for ["audio-out"]
+dcv.js?15a7:1 [featuremanager:130] Unhandled event for callback featuresUpdate triggered
+dcv.js?15a7:1 [filestoragechannel:130] Setup completed for channel filestorage. ConnectionId: 130. ChannelConnectionId: 135
+dcv.js?15a7:1 [filestoragechannel:130] Starting file session storage protocol

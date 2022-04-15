@@ -1317,7 +1317,7 @@ natural-compare@^1.4.0:
   resolved "https://registry.yarnpkg.com/natural-compare/-/natural-compare-1.4.0.tgz#4abebfeed7541f2c27acfb29bdbbd15c8d5ba4f7"
   integrity sha1-Sr6/7tdUHywnrPspvbvRXI1bpPc=
 
-next-global-css@^1.3.0:
+next-global-css@1.3.0:
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/next-global-css/-/next-global-css-1.3.0.tgz#6172c15fbdd921621c794f3864e01a27ad693bbb"
   integrity sha512-1+eOZ5aNPpG3qthJ16EKUEu4Ba8asa3WKBH/aTsKWQiybbZsJXhwyqHb1PLnsUrCi2xHIkK8BdRaHkvWP7NG4Q==

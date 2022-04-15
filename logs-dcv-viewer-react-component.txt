@@ -1,0 +1,302 @@
+Using NICE DCV Web Client SDK version 1.1.0+build.295
+index.js?c53a:54 Starting authentication with  https://nice-dcv.nuvomint.com/
+index.js?c53a:20 Authentication successful.
+index.js?c53a:21 console eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzQ1LCJjbGFpbXMiOnsidXNlciI6IkFkbWluaXN0cmF0b3IiLCJzaWQiOiJjb25zb2xlIn0sInRzIjp7InNlY3Nfc2luY2VfZXBvY2giOjE2NDk5MzQ2MzYsIm5hbm9zX3NpbmNlX2Vwb2NoIjo1NzMxNzc3MDB9LCJpaSI6ImktMGRhNDMyMmE4YTNkOTU1YmUifQ.bACDQnuTBi6wQvxoRHY9DBWKXjNiLUTBgBlbfDVL6KU
+dcv-ui.js?fa38:15 [UI][Main] Calling client.connect
+dcv.js?15a7:1 [client] Start DCV connection
+dcv.js?15a7:1 [connection] Setting up channel factory
+dcv.js?15a7:1 [connection] Setting up resources (console)
+dcv.js?15a7:1 [connection] Creating mainchannel
+dcv.js?15a7:1 [authentication] Auth WebSocket connection closed. Code 1000
+dcv.js?15a7:1 [mainchannel] Main Channel opened
+dcv.js?15a7:1 [mainchannel] Main channel established (connection id 193)
+dcv.js?15a7:1 [mainchannel] Server dcvserver.exe on EC2AMAZ-6L1CDP6 (2022.0.11954 Windows (10.0.17763 - 3), x64)
+dcv.js?15a7:1 [mainchannel] Setup completed for main channel. ConnectionId: 193
+dcv.js?15a7:1 [connection:193] Adding disconnect callback to window unload
+dcv.js?15a7:1 [client] Connection has been established
+dcv-ui.js?fa38:1 [UI] Added feature listener for: audio-in
+dcv-ui.js?fa38:1 [UI] Added feature listener for: audio-out
+dcv-ui.js?fa38:1 [UI] Added feature listener for: webcam
+dcv-ui.js?fa38:1 [UI] Added feature listener for: clipboard-copy
+dcv-ui.js?fa38:1 [UI] Added feature listener for: clipboard-paste
+dcv-ui.js?fa38:1 [UI] Added feature listener for: relative-mouse
+dcv-ui.js?fa38:1 [UI] Added feature listener for: file-download
+dcv-ui.js?fa38:1 [UI] Added feature listener for: file-upload
+dcv-ui.js?fa38:1 [UI] Added feature listener for: display-multi
+dcv-ui.js?fa38:1 [UI] Added feature listener for: keyboard-sas
+dcv-ui.js?fa38:1 [UI] Added feature listener for: screenshot
+dcv.js?15a7:1 [connection:193] Received notification for channel 'audio'
+dcv.js?15a7:1 [datachannel:193] Opening data channel audio
+dcv.js?15a7:1 [media] AudioContext created with state running
+dcv.js?15a7:1 [channelfactory] Created channel of type 'audio'
+dcv.js?15a7:1 [connection:193] Received notification for channel 'input'
+dcv.js?15a7:1 [datachannel:193] Opening data channel input
+dcv.js?15a7:1 [channelfactory] Created channel of type 'input'
+dcv.js?15a7:1 [connection:193] Received notification for channel 'smartcard'
+dcv.js?15a7:1 [channelfactory] Channel of type 'smartcard' is not enabled
+dcv.js?15a7:1 [connection:193] Received notification for channel 'clipboard'
+dcv.js?15a7:1 [datachannel:193] Opening data channel clipboard
+dcv.js?15a7:1 [clipboard:193] Clibpoard copy autosync available
+dcv.js?15a7:1 [clipboard:193] Notifying clipboard event (established)
+dcv.js?15a7:1 [channelfactory] Created channel of type 'clipboard'
+dcv.js?15a7:1 [connection:193] Received notification for channel 'filestorage'
+dcv.js?15a7:1 [datachannel:193] Opening data channel filestorage
+dcv.js?15a7:1 [filestoragechannel:193] Notifying filestorage status enabled
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["file-download"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'file-download' (true)
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["file-upload"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'file-upload' (true)
+dcv.js?15a7:1 [channelfactory] Created channel of type 'filestorage'
+dcv.js?15a7:1 [connection:193] Received notification for channel 'display'
+dcv.js?15a7:1 [datachannel:193] Opening data channel display
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display"]
+dcv-ui.js?fa38:1 [UI][Feature handler] No callback for feature display adding to pending.
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["screenshot"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'screenshot' (false)
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 1
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (false)
+dcv.js?15a7:1 [channelfactory] Created channel of type 'display'
+dcv.js?15a7:1 [connection:193] Received notification for channel 'redirection'
+dcv.js?15a7:1 [channelfactory] Channel of type 'redirection' is not enabled
+dcv.js?15a7:1 [connection:193] Received notification for channel 'usb'
+dcv.js?15a7:1 [channelfactory] Channel of type 'usb' is not enabled
+dcv.js?15a7:1 [connection:193] Notifying license notification status
+dcv.js?15a7:1 [connection:193] Notifying quality indicators state
+dcv-ui.js?fa38:15 Quality Indicators: {"indicators":[{"name":"display_latency","changed":true},{"name":"frame_loss","changed":true},{"name":"client_time","changed":true}]}
+dcv-ui.js?fa38:15 [UI] Indicator display_latency has changed to status 0
+dcv-ui.js?fa38:15 [UI] Indicator frame_loss has changed to status 0
+dcv-ui.js?fa38:15 [UI] Indicator client_time has changed to status 0
+dcv-ui.js?fa38:15 [UI] Current Quality Indicator overall alarm state: 0
+dcv.js?15a7:1 [clipboard:193] Async API clipboard-write from undefined to granted
+dcv.js?15a7:1 [clipboard:193] Adding focus listener for clipboard-write
+dcv.js?15a7:1 [clipboard:193] Async API clipboard-read from undefined to granted
+dcv.js?15a7:1 [clipboard:193] Adding focus listener for clipboard-read
+dcv.js?15a7:1 [audiochannel:193] Data channel audio opened
+dcv.js?15a7:1 [audiochannel:193] Setup completed for channel audio. ConnectionId: 193. ChannelConnectionId: 194
+dcv.js?15a7:1 [audiochannel:193] Started audio protocol on channel 193
+dcv.js?15a7:1 [audiochannel:193] Starting handshake
+dcv.js?15a7:1 [audiochannel:193] Sending to server supported configuration with codec Opus and profiles generic,voice
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["webcam"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'webcam' (true)
+dcv.js?15a7:1 [audiochannel:193] Configuration: 2 channels, 48000Hz, stream frame length: 40 ms, inject frame length: 40 ms
+dcv.js?15a7:1 [audiochannel:193] Opus generic decoder created.
+dcv.js?15a7:1 [audiochannel:193] Selected codec opus and profile generic with bitrates: 32,64,128,160,192 kbps (Default: 64 kbps)
+dcv.js?15a7:1 [audiochannel:193] Selected audio bitrate 64000
+dcv.js?15a7:1 [audioEncoder:193] Opus Encoder with profile "generic" created: sample rate 48000, 2 channels, bitrate 64000
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["audio-in"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'audio-in' (true)
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["audio-out"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'audio-out' (true)
+dcv.js?15a7:1 [inputchannel:193] Data channel input opened
+dcv.js?15a7:1 [audiochannel:193] Stream Configuration: audio type: 1, stream frame length: 40 ms
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["audio-in"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'audio-in' (true)
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["audio-out"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'audio-out' (true)
+dcv.js?15a7:1 [inputchannel:193] Setup completed for channel input. ConnectionId: 193. ChannelConnectionId: 195
+dcv.js?15a7:1 [inputchannel:193] Started input protocol on channel 193
+dcv.js?15a7:1 [inputchannel:193] Server handles status updates
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'relative-mouse' (false)
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'keyboard-sas' (false)
+dcv.js?15a7:1 [inputchannel:193] Registered cursor resource url
+dcv.js?15a7:1 [input:193] Pointer Events are supported
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'relative-mouse' (false)
+dcv.js?15a7:1 [inputchannel:193] Supported pointer modes: [0,1]
+dcv.js?15a7:1 [inputchannel:193] Suggested cursor cache size: undefined
+dcv.js?15a7:1 [inputchannel:193] Supported cursor image formats: [0,1]
+dcv.js?15a7:1 [inputchannel:193] enabled
+dcv.js?15a7:1 [inputchannel:193] Input service 0 status changed to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["keyboard"]
+dcv-ui.js?fa38:1 [UI][Feature handler] No callback for feature keyboard adding to pending.
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'keyboard-sas' (false)
+dcv.js?15a7:1 [inputchannel:193] Input service 1 status changed to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["mouse"]
+dcv-ui.js?fa38:1 [UI][Feature handler] No callback for feature mouse adding to pending.
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'relative-mouse' (false)
+dcv.js?15a7:1 [inputchannel:193] Input service 2 status changed to 2
+dcv.js?15a7:1 [inputchannel:193] Input service 3 status changed to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'relative-mouse' (false)
+dcv.js?15a7:1 [inputchannel:193] Input service 4 status changed to 2
+dcv.js?15a7:1 [inputchannel:193] Input service 5 status changed to 2
+dcv.js?15a7:1 [inputchannel:193] Input service 10 status changed to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["keyboard-sas"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'keyboard-sas' (true)
+dcv.js?15a7:1 [clipboardchannel:193] Data channel clipboard opened
+dcv.js?15a7:1 [filestoragechannel:193] Data channel filestorage opened
+dcv.js?15a7:1 [displaychannel:193] Data channel display opened
+dcv.js?15a7:1 [clipboardchannel:193] Setup completed for channel clipboard. ConnectionId: 193. ChannelConnectionId: 196
+dcv.js?15a7:1 [clipboardchannel:193] Started clipboard protocol on channel 193
+dcv.js?15a7:1 [clipboardchannel:193] Resetting channel
+dcv.js?15a7:1 [clipboardchannel:193] Starting handshake
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["clipboard-copy"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'clipboard-copy' (true)
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["clipboard-paste"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'clipboard-paste' (true)
+dcv.js?15a7:1 [filestoragechannel:193] Setup completed for channel filestorage. ConnectionId: 193. ChannelConnectionId: 197
+dcv.js?15a7:1 [filestoragechannel:193] Starting file session storage protocol
+dcv.js?15a7:1 [displaychannel:193] Setup completed for channel display. ConnectionId: 193. ChannelConnectionId: 198
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv.js?15a7:1 [displaychannel:193] Started display protocol on channel 193
+dcv.js?15a7:1 [media] Found WebGL device: 'webgl2', renderer: 'ANGLE (Intel, Intel(R) UHD Graphics 630 Direct3D11 vs_5_0 ps_5_0, D3D11)'
+dcv.js?15a7:1 [displaychannel:193] Start display negotiation (2003094367286)
+dcv.js?15a7:1 [displaychannel:193] Resetting display channel
+dcv.js?15a7:1 [displaychannel:193] Start
+dcv.js?15a7:1 [displaychannel:193] Display Layout Capabilities: {"supportClientResize":true,"supportClientDpi":true,"maxHeads":4,"maxHeadResolution":{"width":4096,"height":2160},"minHeadResolution":{"width":640,"height":480},"webClientMaxHeadResolution":{"width":1920,"height":1080}}
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv.js?15a7:1 [media] WebVideoDecoder is available. Supported profiles:
+
+name     config          format
+-------- --------------- ------
+high444  no preference   I444
+high     prefer hardware NV12
+main     prefer hardware NV12
+baseline prefer hardware NV12
+dcv.js?15a7:1 [decoderfactory] Enabled codecs are: h264,jpeg,lz4
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'h264' registered in the factory
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'mpeg1video' is not enabled
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'jpeg' registered in the factory
+dcv.js?15a7:1 [decoderfactory] Decoder of type 'lz4' registered in the factory
+dcv.js?15a7:1 [displaychannel:193] Sending client codecs: [{"name":"h264","capabilities":["codec_quality_setting","codec_profile_high","codec_profile_main","codec_profile_baseline","subsamp_420","colorspace_yuv_rec709","colorspace_yuv_rec601","colorrange_full"]},{"name":"jpeg","capabilities":["codec_quality_setting","codec_tiles","subsamp_420"]},{"name":"lz4","capabilities":["codec_lossless","codec_tiles","colorspace_rgb"]}]
+dcv.js?15a7:1 [displaychannel:193] Server Codecs: [{"name":"h264","capabilities":["codec_quality_setting","codec_profile_high","subsamp_420","colorspace_yuv_rec601"],"id":1},{"name":"jpeg","capabilities":["codec_quality_setting","codec_tiles","subsamp_420"],"id":2},{"name":"lz4","capabilities":["codec_tiles","codec_lossless","colorspace_rgb"],"id":3}]
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["high-color-accuracy"]
+dcv-ui.js?fa38:1 [UI][Feature handler] No callback for feature high-color-accuracy adding to pending.
+dcv.js?15a7:1 [displaychannel:193] Sending client ready
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv.js?15a7:1 [displaychannel:193] Start stream 1 with codec 1
+dcv.js?15a7:1 [displaychannel:193] Creating decoder for codec h264 (id: 1, layer: 0)
+dcv.js?15a7:1 [displaychannel:193] Created decoder for codec h264 (id: 1, layer: 0)
+dcv.js?15a7:1 [displaychannel:193] Start stream 2 with codec 2
+dcv.js?15a7:1 [displaychannel:193] Creating decoder for codec jpeg (id: 2, layer: 1)
+dcv.js?15a7:1 [displaychannel:193] Created decoder for codec jpeg (id: 2, layer: 1)
+dcv.js?15a7:1 [displaychannel:193] Start stream 3 with codec 3
+dcv.js?15a7:1 [displaychannel:193] Creating decoder for codec lz4 (id: 3, layer: 2)
+dcv.js?15a7:1 [lz4decoder:193] Using model rgb
+dcv.js?15a7:1 [lz4decoder:193] Created Lz4 worker (https://localhost:3001/static/js/dcvjs/dcv/lz4decoder-worker.js)
+dcv.js?15a7:1 [displaychannel:193] Created decoder for codec lz4 (id: 3, layer: 2)
+dcv.js?15a7:1 [displaychannel:193] Display Layout: [{"name":"\\\\.\\DISPLAY1","rect":{"width":1902,"height":928},"primary":true,"dpi":96}]
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["relative-mouse"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'relative-mouse' (true)
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'wheel' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'touchstart' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:27 [Violation] Added non-passive event listener to a scroll-blocking 'touchmove' event. Consider marking event handler as 'passive' to make the page more responsive. See https://www.chromestatus.com/feature/5745543795965952
+eval @ dcv.js?15a7:27
+$a.addInputListeners @ dcv.js?15a7:27
+ac @ dcv.js?15a7:27
+$a @ dcv.js?15a7:27
+hc @ dcv.js?15a7:27
+uc.setLayout @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+dcv.js?15a7:1 [display:193] Notifying new server display layout (1902, 928)
+dcv.js?15a7:1 [display:193] Display \\.\DISPLAY1 has been created
+dcv.js?15a7:1 [WebGL2Renderer:193] Initialized Webgl2Renderer
+DevTools failed to load source map: Could not load content for chrome-extension://gannpgaobkkhmpomoijebaigcapoeebl/bundle.min.js.map: System error: net::ERR_BLOCKED_BY_CLIENT
+dcv.js?15a7:1 [WebGL2Renderer:193] Resized viewport
+dcv.js?15a7:1 [displaymanager:193] Notifying new server primary display layout (1902, 928)
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv.js?15a7:1 [displaychannel:193] active
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["screenshot"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'screenshot' (true)
+dcv.js?15a7:1 [WebGL2Renderer:193] Initialized rendering layer 0
+dcv.js?15a7:1 [display:193] Started renderer for layer type: 0
+dcv.js?15a7:1 [displaychannel:193] Stream 1 associated to display \\.\DISPLAY1(id: 0)
+dcv.js?15a7:1 [WebGL2Renderer:193] Initialized rendering layer 2
+dcv.js?15a7:1 [display:193] Started renderer for layer type: 2
+dcv.js?15a7:1 [displaychannel:193] Stream 3 associated to display \\.\DISPLAY1(id: 0)
+dcv.js?15a7:1 [displaymanager:193] First frame to be painted, executing associated actions
+dcv.js?15a7:1 [connection:193] Received display quality change request
+dcv.js?15a7:1 [connection:193] Received display quality change request. Setting display quality to [30-0]
+dcv.js?15a7:1 [displaymanager:193] Maximum number of displays set to 2
+dcv.js?15a7:1 [featuremanager:193] Notifying features update for ["display-multi"]
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'display-multi' (true)
+dcv-ui.js?fa38:1 [UI] Added feature listener for: high-color-accuracy
+dcv.js?15a7:1 [featuremanager:193] Sending feature query result for feature 'high-color-accuracy' (false)
+dcv.js?15a7:1 [display:193] First frame notified for display \\.\DISPLAY1 (id: 0)
+hot-dev-client.js?1600:155 [Fast Refresh] rebuilding
+dcv.js?15a7:1 [connection:193] Received resolution change request
+dcv.js?15a7:1 [connection:193] Requesting resolution 1903x548
+dcv.js?15a7:1 [displaychannel:193] Requesting layout 1903x548
+hot-dev-client.js?1600:137 [Fast Refresh] done in 517ms
+dcv-ui.js?fa38:7          GET https://localhost:3001/third-party-licenses.txt 404 (Not Found)
+eval @ dcv-ui.js?fa38:7
+invokePassiveEffectCreate @ react-dom.development.js?ac89:23487
+callCallback @ react-dom.development.js?ac89:3945
+invokeGuardedCallbackDev @ react-dom.development.js?ac89:3994
+invokeGuardedCallback @ react-dom.development.js?ac89:4056
+flushPassiveEffectsImpl @ react-dom.development.js?ac89:23574
+unstable_runWithPriority @ scheduler.development.js?bcd2:468
+runWithPriority$1 @ react-dom.development.js?ac89:11276
+flushPassiveEffects @ react-dom.development.js?ac89:23447
+performSyncWorkOnRoot @ react-dom.development.js?ac89:22269
+eval @ react-dom.development.js?ac89:11327
+unstable_runWithPriority @ scheduler.development.js?bcd2:468
+runWithPriority$1 @ react-dom.development.js?ac89:11276
+flushSyncCallbackQueueImpl @ react-dom.development.js?ac89:11322
+flushSyncCallbackQueue @ react-dom.development.js?ac89:11309
+scheduleUpdateOnFiber @ react-dom.development.js?ac89:21893
+dispatchAction @ react-dom.development.js?ac89:16139
+le1 @ dcv-ui.js?fa38:15
+s10.emit @ dcv-ui.js?fa38:1
+emit @ dcv-ui.js?fa38:1
+firstFrame @ dcv-ui.js?fa38:15
+$a.paintTile @ dcv.js?15a7:27
+eval @ dcv.js?15a7:27
+fc @ dcv.js?15a7:27
+uc.pushDecodedTile @ dcv.js?15a7:27
+output @ dcv.js?15a7:27
+dcv.js?15a7:1 [lz4decoder:193] LZ4 worker error (blob:https://localhost:3001/2e04fe62-97c2-47c1-bd48-58d0ed94f8d2:1): Uncaught NetworkError: Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'https://localhost:3001/static/js/dcvjs/dcv/lz4decoder-worker.js' failed to load.
+n6.<computed> @ dcv.js?15a7:1
+Xc.lz4Worker.onerror @ dcv.js?15a7:27
+error (async)
+Xc @ dcv.js?15a7:27
+dl @ dcv.js?15a7:27
+rl @ dcv.js?15a7:27
+onMessageReceived @ dcv.js?15a7:27
+Ro @ dcv.js?15a7:7
+i @ dcv.js?15a7:1
+hr @ dcv.js?15a7:1
+2e04fe62-97c2-47c1-bd48-58d0ed94f8d2:1 Uncaught DOMException: Failed to execute 'importScripts' on 'WorkerGlobalScope': The script at 'https://localhost:3001/static/js/dcvjs/dcv/lz4decoder-worker.js' failed to load.
+    at blob:https://localhost:3001/2e04fe62-97c2-47c1-bd48-58d0ed94f8d2:1:56

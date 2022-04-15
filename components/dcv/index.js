@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { DCVViewer } from "../../dcv-ui/dcv-ui";
-import dcv from "../../dcvjs-esm/dcv";
+import dcv from "../../public/dcvjs/dcv";
 
 function DCVViewerComponent() {
   const [authenticated, setAuthenticated] = useState(false);
@@ -10,7 +10,7 @@ function DCVViewerComponent() {
 
   const LOG_LEVEL = dcv.LogLevel.INFO;
   const SERVER_URL = process.env.NEXT_PUBLIC_SERVER_URL;
-  const BASE_URL = "/static/js/dcvjs";
+  const BASE_URL = "/dcvjs";
 
   let auth;
 
