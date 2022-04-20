@@ -110,40 +110,7 @@ function DCVViewerComponent() {
     setAuthenticated(false);
   };
 
-  return authenticated ? (
-    <div style={{ height: "100%" }}>
-      {/* <h1>DCV First Connection</h1> */}
-      <div id="dcv-display"></div>
-    </div>
-  ) : (
-    <div
-      style={{
-        height: window.innerHeight,
-        backgroundColor: "#373737",
-        display: "flex",
-        alignItems: "center",
-        justifyContent: "center",
-      }}
-    >
-      <form>
-        <fieldset>
-          {Object.keys(credentials).map((cred) => (
-            <input
-              key={cred}
-              name={cred}
-              placeholder={cred}
-              type={cred === "password" ? "password" : "text"}
-              onChange={updateCredentials}
-              value={credentials[cred]}
-            />
-          ))}
-        </fieldset>
-        <button type="submit" onClick={submitCredentials}>
-          Login
-        </button>
-      </form>
-    </div>
-  );
+  return <div></div>;
 }
 
 const onError = (_, error) => {

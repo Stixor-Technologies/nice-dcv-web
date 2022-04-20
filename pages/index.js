@@ -9,5 +9,9 @@ const DCVViewerComponent = dynamic(() => import("../components/dcv"), {
 });
 
 export default function Home() {
-  return <DCVViewerComponent />;
+  return (
+    <div id="dcv-display">
+      <DCVViewerComponent />
+    </div>
+  );
 }
